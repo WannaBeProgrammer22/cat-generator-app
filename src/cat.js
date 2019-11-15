@@ -15,18 +15,15 @@ class Cat {
         this.img.className = 'img-fluid'
         this.img.src = cat.url;
         this.container.appendChild(this.img);
-      });
+      })
+      .catch(err => console.log('something\'s wrong with the API'));
   }
 
   async getPhoto() {
-
     const response = await fetch(`${this.resourceURI}?api_key=${this.api_key}`);
     const data = await response.json();
-
     return data[0];
   }
-
-
 }
 
 export { Cat as default };
