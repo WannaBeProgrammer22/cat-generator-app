@@ -7,3 +7,21 @@
   max-width: 450px;
   margin: 0 auto;
 }
+
+.photo-container img{
+  width: 100%;
+}
+
+
+@media (min-width: 350px){
+  h1{
+    font-size: 1.5rem;
+  }
+} 
+
+
+@media (min-width: 500px){
+  h1{
+    font-size: 1.7rem;
+  }
+} 

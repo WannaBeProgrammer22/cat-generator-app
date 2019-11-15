@@ -26,7 +26,7 @@ automaticBtutton.addEventListener('click', () => {
     automatic = setInterval(() => {
       cat.setPhoto();
       automaticBtutton.id = 'stop';
-    }, 5000);;
+    }, 6000);
   }
 });
 
