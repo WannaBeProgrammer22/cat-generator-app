@@ -1,2 +1,2 @@
-# webpack-babel-boilerplate
-Simple boilerplate of webpack and babel
+# cat-generator-app
+Cat generator app is a simple web app that will generate photo of a cutie Cat.
